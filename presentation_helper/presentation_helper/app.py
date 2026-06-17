@@ -276,4 +276,4 @@ if st.session_state.analysis_done and st.session_state.results:
 # 푸터
 # ──────────────────────────────────────────────
 st.divider()
-st.caption("© 2025 발표 도우미 AI — 학생들의 학습과 성장을 응원합니다.")
+st.caption("© 2026 발표 도우미 AI — 학생들의 학습과 성장을 응원합니다.")

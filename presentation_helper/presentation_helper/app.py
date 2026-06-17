@@ -11,7 +11,7 @@ from utils import transcribe_audio, analyze_presentation, get_feedback
 # 페이지 기본 설정
 # ──────────────────────────────────────────────
 st.set_page_config(
-    page_title="발표 도우미 AI",
+    page_title="RiseOn | AI 발표 도우미",
     page_icon="🎤",
     layout="centered",
     initial_sidebar_state="expanded",
@@ -26,7 +26,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 /* 배경 */
-.stApp { background-color: #f0f4f8; }
+.stApp { background-color: #BFE6FF; }
 
 /* 메인 컨테이너 패딩 */
 .block-container { padding-top: 2rem; padding-bottom: 2rem; }

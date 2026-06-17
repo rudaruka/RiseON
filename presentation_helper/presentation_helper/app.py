@@ -128,11 +128,11 @@ st.subheader("① 발표 녹음하기")
 st.write("아래 버튼을 눌러 녹음을 시작하고, 발표가 끝나면 중지 버튼을 눌러주세요.")
 
 audio_data = mic_recorder(
-    start_prompt="⏺️ 녹음 시작",
-    stop_prompt="⏹️ 녹음 중지",
-    just_once=True,
+    start_prompt="⏺️ 녹음 시작 (클릭)",
+    stop_prompt="⏹️ 녹음 중지 (클릭)",
+    key='recorder',
     use_container_width=True,
-    key="recorder",
+    format="wav" # 포맷을 명시적으로 지정
 )
 
 if audio_data:

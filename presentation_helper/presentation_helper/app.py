@@ -26,7 +26,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 /* 배경 */
-.stApp { background-color: #BFE6FF; }
+.stApp { background-color: #faf1t2; }
 
 /* 메인 컨테이너 패딩 */
 .block-container { padding-top: 2rem; padding-bottom: 2rem; }

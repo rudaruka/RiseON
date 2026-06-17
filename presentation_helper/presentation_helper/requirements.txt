@@ -1,7 +1,10 @@
 streamlit
 openai
-pydub
-librosa
 matplotlib
 numpy
+streamlit-mic-recorder
+streamlit>=1.30.0
+openai>=1.0.0
+pydub
+librosa
 streamlit-mic-recorder
